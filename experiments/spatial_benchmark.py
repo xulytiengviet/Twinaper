@@ -48,7 +48,7 @@ def run(csv: str, target: str, features: list[str], lat: str, lon: str,
     y = clean[target].to_numpy(dtype=float)
     g_lat = np.floor((clean[lat].to_numpy() + 90) / block_size).astype(int)
     g_lon = np.floor((clean[lon].to_numpy() + 180) / block_size).astype(int)
-    groups = pd.Series(g_lat.astype(str) + ":" + g_lon.astype(str)).to_numpy()
+    groups = (pd.Series(g_lat).astype(str) + ":" + pd.Series(g_lon).astype(str)).to_numpy()
     n_groups = len(np.unique(groups))
     if n_groups < 2:
         raise ValueError("Need at least 2 distinct spatial grid cells; reduce --block-size.")
