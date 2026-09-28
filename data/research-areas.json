@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gis",
+    "name": "GIS & phân tích không gian",
+    "en": "Geographic Information Systems",
+    "icon": "◇",
+    "description": "Cơ sở dữ liệu không gian, topology, GeoPackage, phân tích mạng và mô hình địa lý.",
+    "search": "geographic information systems spatial analysis",
+    "example": "Đánh giá độ tin cậy của phân tích mạng giao thông từ OpenStreetMap tại đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "geography",
+    "name": "Địa lý & khoa học Trái Đất",
+    "en": "Geography & Earth Sciences",
+    "icon": "◎",
+    "description": "Địa mạo, môi trường, phân vùng địa lý, địa lý con người và hệ thống Trái Đất.",
+    "search": "physical geography environmental geography",
+    "example": "Phân tích biến động cảnh quan nông nghiệp và đô thị hóa vùng hạ lưu sông Mê Kông"
+  },
+  {
+    "id": "webgis",
+    "name": "WebGIS & bản đồ số",
+    "en": "WebGIS & Geospatial Platforms",
+    "icon": "⌘",
+    "description": "Bản đồ web, API dữ liệu địa lý, vector tiles, OGC và ứng dụng GIS phân tán.",
+    "search": "WebGIS cloud geospatial web mapping",
+    "example": "Đánh giá hiệu năng WebGIS ngoại tuyến với vector tiles cho cảnh báo ngập thời gian thực"
+  },
+  {
+    "id": "geoai",
+    "name": "GeoAI & máy học không gian",
+    "en": "Geospatial Artificial Intelligence",
+    "icon": "✧",
+    "description": "Mô hình nền tảng địa lý, GNN, học sâu không gian và tổng quát hóa ngoài miền.",
+    "search": "GeoAI geospatial artificial intelligence spatial deep learning",
+    "example": "Kiểm định khả năng tổng quát hóa GeoAI khi dự báo nguy cơ ngập ở vùng ít dữ liệu"
+  },
+  {
+    "id": "remote-sensing",
+    "name": "Viễn thám & UAV",
+    "en": "Remote Sensing & UAV",
+    "icon": "◈",
+    "description": "Ảnh vệ tinh, UAV, SAR, LiDAR, phân loại lớp phủ và giám sát biến động.",
+    "search": "remote sensing satellite imagery UAV machine learning",
+    "example": "So sánh Sentinel-2 và ảnh UAV trong phát hiện thay đổi lớp phủ đất theo mùa"
+  },
+  {
+    "id": "spatial-ml",
+    "name": "Khoa học dữ liệu không gian",
+    "en": "Spatial Data Science",
+    "icon": "∿",
+    "description": "Thống kê không gian, chuỗi thời gian, spatial CV, độ bất định và causal inference.",
+    "search": "spatial data science geostatistics spatial cross validation",
+    "example": "Phát hiện rò rỉ dữ liệu trong đánh giá mô hình dự báo nhiệt độ bề mặt đô thị"
+  },
+  {
+    "id": "hydroclimate",
+    "name": "Thủy văn & biến đổi khí hậu",
+    "en": "Hydrology & Climate",
+    "icon": "≈",
+    "description": "Dự báo ngập, xâm nhập mặn, hạn hán, khí hậu cực đoan và mô hình kết hợp vật lý-AI.",
+    "search": "hydrology flood forecasting climate change geospatial",
+    "example": "Kết hợp địa hình số và mưa vệ tinh để đánh giá khả năng chuyển vùng của mô hình dự báo ngập"
+  },
+  {
+    "id": "urban",
+    "name": "Đô thị thông minh & quy hoạch",
+    "en": "Smart Cities & Spatial Planning",
+    "icon": "▦",
+    "description": "Quy hoạch sử dụng đất, giao thông, khả năng tiếp cận, công bằng không gian và đô thị số.",
+    "search": "urban planning geospatial accessibility transport GIS",
+    "example": "Phân tích tính công bằng không gian trong tiếp cận y tế bằng mạng giao thông đô thị"
+  }
+]

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0d1b2d">
+  <meta name="description" content="Twinaper: nền tảng nghiên cứu tự động cho GIS, Địa lý, WebGIS, GeoAI và khoa học không gian. Tra cứu nguồn thật, phát triển giả thuyết và tạo bản thảo có truy xuất.">
+  <title>Twinaper · Autonomous GeoAI Research Lab</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzx0ci4VfFh7zH5HAXW0x0xAPk=" crossorigin="">
+</head>
+<body>
+  <a class="skip" href="#content">Chuyển tới nội dung</a>
+  <header class="topbar">
+    <div class="container navline">
+      <a class="brand" href="#" aria-label="Twinaper trang chủ"><span class="brand-mark" aria-hidden="true">T<span>·</span></span><span>TWINAPER<small>GEOAI RESEARCH LAB</small></span></a>
+      <nav aria-label="Điều hướng chính"><a href="#vision">Tầm nhìn</a><a href="#fields">8 lĩnh vực</a><a href="#laboratory">Phòng nghiên cứu</a><a href="#reference">86 bài tham khảo</a><a href="#integrity">Minh bạch</a></nav>
+      <a class="nav-cta" href="#laboratory">Khởi tạo nghiên cứu <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="content">
+    <section class="hero" id="vision">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse"></span> TWINAPER · VIỆT NAM · OPEN RESEARCH</div>
+          <h1>Tiên phong khám phá <em>tri thức không gian</em> cùng trí tuệ nhân tạo.</h1>
+          <p class="lead">Từ câu hỏi địa lý đến tài liệu khoa học, giả thuyết, thiết kế thí nghiệm và bản thảo có thể kiểm chứng. Một không gian nghiên cứu mở cho GIS, WebGIS, GeoAI, viễn thám và khoa học Trái Đất.</p>
+          <div class="hero-actions"><a href="#laboratory" class="btn btn-primary">Bắt đầu nghiên cứu <span>↗</span></a><a href="#architecture" class="btn btn-quiet">Khám phá hệ thống <span>↓</span></a></div>
+          <div class="hero-caption"><span class="verified">✓</span> Không công bố kết quả chưa kiểm chứng · Không tạo trích dẫn giả</div>
+        </div>
+        <div class="hero-art" aria-label="Minh họa mạng lưới dữ liệu địa không gian">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="art-card art-card-top"><span class="mini-dot"></span> RESEARCH PIPELINE <b>ACTIVE FRAMEWORK</b></div>
+          <div class="geo-panel">
+            <svg class="geo-lines" viewBox="0 0 500 450" role="img" aria-label="Đường đồng mức và mạng lưới không gian" fill="none">
+              <defs><linearGradient id="geoGradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#66cba9"/><stop offset="1" stop-color="#4b83f2"/></linearGradient></defs>
+              <g stroke="#80b5cb" stroke-opacity=".18" stroke-width="1">
+                <path d="M12 303C90 262 166 264 222 311s126 45 247-38M3 258c95-65 167-76 230-22s134 55 263-24M1 212c80-91 154-109 226-51s151 59 273-17M13 164c92-118 157-120 225-88S395 141 482 82M36 119C151 17 203 15 267 36S387 86 450 29"/>
+                <path d="M1 343C100 315 163 330 227 369s149 30 269-38M30 398C154 363 192 399 255 414s156 6 243-36"/>
+              </g>
+              <g transform="translate(45,26)"><circle cx="203" cy="189" r="128" stroke="#91cfce" stroke-dasharray="3 7" opacity=".5"/><circle cx="203" cy="189" r="83" stroke="#91cfce" stroke-dasharray="3 8" opacity=".4"/>
+                <path d="M127 154L171 91L225 119L284 92L332 142L295 204L320 256L237 300L183 248L125 264L91 202Z" fill="#dceff0" fill-opacity=".1" stroke="url(#geoGradient)" stroke-width="2"/>
+                <path d="M127 154L225 119L295 204L237 300L125 264L171 91L284 92L320 256L183 248L91 202L332 142L237 300" stroke="#67c9b4" stroke-width="1" opacity=".65"/>
+                <path d="M171 91L183 248L295 204L225 119L125 264M284 92L295 204L127 154" stroke="#80b5cb" stroke-width=".8" opacity=".5"/>
+                <g fill="#68d4bc"><circle cx="171" cy="91" r="5"/><circle cx="225" cy="119" r="4"/><circle cx="295" cy="204" r="6"/><circle cx="125" cy="264" r="4"/><circle cx="237" cy="300" r="5"/></g>
+                <circle cx="203" cy="189" r="20" fill="#58c9b0" fill-opacity=".15" stroke="#58c9b0"/><circle cx="203" cy="189" r="5" fill="#9fffe4"/>
+              </g>
+            </svg>
+            <div class="art-label label-left">10.03° N<br><b>106.12° E</b></div>
+            <div class="art-label label-right">SPATIAL<br><b>INTELLIGENCE</b></div>
+            <div class="panel-footer"><span>GEOSPATIAL KNOWLEDGE ENGINE</span><span class="blinking">● LIVE CONCEPT</span></div>
+          </div>
+          <div class="art-card art-card-bottom">01 <span>QUESTION → EVIDENCE → HYPOTHESIS</span> <span class="check">✓</span></div>
+        </div>
+      </div>
+      <div class="container stats-wrap">
+        <div class="stats">
+          <div><strong>08</strong><span>Hướng nghiên cứu địa không gian</span></div>
+          <div><strong>86</strong><span>Bài báo <u>tham khảo</u> từ ScientistTwo</span></div>
+          <div><strong>04</strong><span>Vai trò AI trong quy trình soạn thảo</span></div>
+          <div><strong id="verified-count">0</strong><span>Công trình Twinaper đã kiểm chứng</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="fields">
+      <div class="container">
+        <div class="section-heading"><div><span class="kicker">01 / RESEARCH FIELDS</span><h2>Tám hướng nghiên cứu.<br><span>Một hệ tri thức kết nối.</span></h2></div><p>Chọn lĩnh vực để đi từ câu hỏi chuyên ngành đến bộ tài liệu và thiết kế nghiên cứu có thể tái lập.</p></div>
+        <div id="area-grid" class="area-grid" aria-live="polite"><p class="muted">Đang tải các hướng nghiên cứu…</p></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="architecture">
+      <div class="container">
+        <div class="section-heading"><div><span class="kicker">02 / AUTONOMOUS WORKFLOW</span><h2>Quy trình nghiên cứu<br><span>có căn cứ và có kiểm soát.</span></h2></div><p>Phân tách bước tự động hóa tài liệu khỏi bước thí nghiệm thực tế. Mọi tuyên bố về kết quả phải được xác minh bằng dữ liệu và mã nguồn.</p></div>
+        <div class="pipeline">
+          <article><span class="step">01</span><div class="step-icon">⌕</div><h3>Literature Scout</h3><p>Tìm bài báo thật qua OpenAlex, chuẩn hóa DOI, tác giả và abstract.</p><span class="step-status">Có thể chạy ngay</span></article>
+          <article><span class="step">02</span><div class="step-icon">◇</div><h3>Hypothesis Agent</h3><p>Tổng hợp khoảng trống tri thức, đề xuất giả thuyết có thể bác bỏ.</p><span class="step-status">AI qua API tùy chọn</span></article>
+          <article><span class="step">03</span><div class="step-icon">⌘</div><h3>Methods Designer</h3><p>Thiết kế dữ liệu, baseline, kiểm định không gian và kế hoạch ablation.</p><span class="step-status">AI qua API tùy chọn</span></article>
+          <article><span class="step">04</span><div class="step-icon">≋</div><h3>Review & Writing</h3><p>Phản biện độc lập, soạn bản thảo, xuất hồ sơ nguồn và nhật ký.</p><span class="step-status">Chưa thay thế peer review</span></article>
+        </div>
+        <div class="limits"><span class="limits-icon">!</span><p><b>Ranh giới hệ thống:</b> Twinaper hiện tự động hóa nghiên cứu tài liệu và bản thảo. Các thí nghiệm GIS/GeoAI thực, thực thi mã, so sánh benchmark và xác minh kết quả phải được triển khai riêng trước khi công bố.</p></div>
+      </div>
+    </section>
+
+    <section class="section lab-section" id="laboratory">
+      <div class="container">
+        <div class="section-heading"><div><span class="kicker">03 / RESEARCH WORKBENCH</span><h2>Phòng nghiên cứu <span>Twinaper.</span></h2></div><p>Tìm tài liệu khoa học thực tế, tạo hồ sơ nguồn có DOI và xây dựng bản thảo cùng AI nếu anh/chị cung cấp khóa API của riêng mình.</p></div>
+        <div class="lab-layout">
+          <form id="research-form" class="workbench">
+            <div class="workbench-top"><div><span class="live-pill">● LIVE LITERATURE SEARCH</span><h3>Khởi tạo đề tài mới</h3></div><span class="form-tag">BẢN NHÁP · RESEARCH</span></div>
+            <label for="topic">Câu hỏi / chủ đề khoa học <span>*</span></label>
+            <textarea id="topic" name="topic" required minlength="12" maxlength="350" rows="3" placeholder="Ví dụ: Đánh giá khả năng tổng quát hóa của GeoAI khi dự báo ngập tại đồng bằng sông Cửu Long…"></textarea>
+            <div class="form-row"><div><label for="domain">Lĩnh vực nghiên cứu</label><select id="domain" name="domain" required><option value="">Chọn lĩnh vực…</option></select></div><div><label for="limit">Số bài nguồn</label><select id="limit" name="limit"><option value="5">05 bài</option><option value="10" selected>10 bài</option><option value="15">15 bài</option><option value="20">20 bài</option></select></div></div>
+            <label for="api-key">OpenRouter API key <span class="optional">(tùy chọn – chỉ nằm trong bộ nhớ trang)</span></label>
+            <input id="api-key" name="api-key" type="password" autocomplete="off" placeholder="Để trống nếu chỉ cần hồ sơ tài liệu và đề cương">
+            <div class="form-hint">Không dùng khóa quản trị. Khóa được gửi trực tiếp tới OpenRouter khi chọn tạo bản thảo; GitHub Pages không lưu trữ khóa. Nên dùng khóa có hạn mức chi tiêu.</div>
+            <label for="model">Mô hình cho AI soạn thảo</label><input id="model" name="model" value="openai/gpt-4.1-mini" spellcheck="false" aria-describedby="model-help"><div id="model-help" class="form-hint">Có thể thay bằng model ID được tài khoản OpenRouter hỗ trợ. Tác vụ AI phát sinh chi phí.</div>
+            <div class="form-actions"><button id="start-btn" class="btn btn-primary" type="submit">Tìm nguồn &amp; xây dựng bản thảo ↗</button><button id="cancel-btn" class="btn btn-outline hidden" type="button">Dừng</button></div>
+            <p id="research-status" class="research-status" role="status" aria-live="polite">Sẵn sàng. Không có khóa API vẫn có thể tạo bộ hồ sơ nghiên cứu dựa trên nguồn thật.</p>
+            <div id="steps" class="task-steps" aria-label="Các bước nghiên cứu">
+              <div data-step="search"><span>1</span> Tìm và xác thực bài báo</div><div data-step="evidence"><span>2</span> Tạo hồ sơ chứng cứ</div><div data-step="hypothesis"><span>3</span> Giả thuyết &amp; phương pháp</div><div data-step="review"><span>4</span> Phản biện &amp; bản thảo</div>
+            </div>
+          </form>
+          <div class="result-panel">
+            <div class="result-tabs" role="tablist" aria-label="Kết quả"><button type="button" class="tab active" data-tab="draft" aria-selected="true">Bản thảo</button><button type="button" class="tab" data-tab="sources" aria-selected="false">Nguồn trích dẫn <b id="source-count">0</b></button><button type="button" class="tab" data-tab="audit" aria-selected="false">Kiểm tra</button></div>
+            <div id="panel-draft" class="result-body" role="tabpanel"><div id="draft-view" class="empty-state"><span class="empty-icon">◈</span><h3>Không gian tạo tri thức mới</h3><p>Nhập đề tài để tìm tài liệu thực từ OpenAlex và xuất đề cương có thể truy xuất. Nhập khóa OpenRouter nếu muốn AI phát triển bản thảo.</p></div></div>
+            <div id="panel-sources" class="result-body hidden" role="tabpanel"><div id="source-view" class="empty-state"><p>Tài liệu và DOI sẽ xuất hiện tại đây sau khi truy vấn.</p></div></div>
+            <div id="panel-audit" class="result-body hidden" role="tabpanel"><div id="audit-view" class="empty-state"><p>Hồ sơ kiểm tra trích dẫn, xuất xứ dữ liệu và trạng thái thí nghiệm sẽ xuất hiện tại đây.</p></div></div>
+            <div class="result-footer"><span id="result-label">DRAFT · NOT PEER REVIEWED</span><div><button class="small-btn" type="button" id="download-md" disabled>Tải Markdown ↓</button><button class="small-btn" type="button" id="download-json" disabled>Tải hồ sơ JSON ↓</button></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="geo-lab">
+      <div class="container geo-section"><div><span class="kicker">04 / SPATIAL SANDBOX</span><h2>Địa lý là <span>một phòng thí nghiệm mở.</span></h2><p>Tương tác với bản đồ nghiên cứu. Các điểm bên dưới chỉ là địa bàn gợi ý để xây dựng câu hỏi GIS, không phải dữ liệu thực nghiệm hoặc kết quả dự báo.</p><div class="map-legend"><span><i class="map-swatch"></i> Vị trí đề xuất nghiên cứu</span><span>OSM · Leaflet</span></div><div id="map-places" class="map-places"></div></div><div class="map-frame"><div id="map" aria-label="Bản đồ các địa bàn nghiên cứu minh họa"><div class="map-loading">Cần kết nối Internet để tải bản đồ OpenStreetMap.</div></div><div class="map-credit">Basemap © OpenStreetMap contributors</div></div></div>
+    </section>
+
+    <section class="section section-alt" id="reference">
+      <div class="container">
+        <div class="section-heading"><div><span class="kicker">05 / REFERENCE LIBRARY</span><h2>86 bài báo từ <span>ScientistTwo.</span></h2></div><p>Thư viện tham khảo nguyên gốc của ScientistTwo thuộc 8 nhánh AI. Không phải công trình do Twinaper tạo ra, và không phải 86 bài báo GIS.</p></div>
+        <div class="ref-disclosure"><span>↗</span> Nguồn: <a href="https://scientist-two.github.io/" target="_blank" rel="noopener noreferrer">ScientistTwo</a>. Các PDF được mở trực tiếp trên website gốc, không sao chép hoặc nhận quyền tác giả.</div>
+        <div class="filter-bar"><label class="sr-only" for="reference-search">Tìm bài báo tham khảo</label><input id="reference-search" type="search" placeholder="Tìm phương pháp hoặc lĩnh vực AI…"><label class="sr-only" for="reference-domain">Lọc miền AI</label><select id="reference-domain"><option value="all">Tất cả 8 lĩnh vực</option></select></div>
+        <div id="reference-grid" class="reference-grid" aria-live="polite"><p>Đang tải thư viện tham khảo…</p></div>
+        <p id="ref-counter" class="ref-counter"></p>
+      </div>
+    </section>
+
+    <section class="section" id="integrity">
+      <div class="container">
+        <div class="section-heading"><div><span class="kicker">06 / RESEARCH INTEGRITY</span><h2>Chỉ gọi là khám phá <span>khi có bằng chứng.</span></h2></div><p>Mỗi hồ sơ nghiên cứu phải chỉ rõ dữ liệu đầu vào, phương pháp, kết quả đã chạy, giới hạn và trách nhiệm của tác giả con người.</p></div>
+        <div class="integrity-grid"><article><span>01 / PROVENANCE</span><h3>Nguồn có thể truy xuất</h3><p>Tra cứu OpenAlex, lưu OpenAlex ID và DOI khi có; không tự tạo mục tham khảo.</p></article><article><span>02 / REPRODUCIBILITY</span><h3>Thực nghiệm tái lập</h3><p>Đính kèm dữ liệu, mã nguồn, seed, môi trường thực thi và log khi thực sự chạy thí nghiệm.</p></article><article><span>03 / VALIDATION</span><h3>Kiểm định không gian</h3><p>Thiết kế spatial cross-validation, kiểm tra rò rỉ dữ liệu, sai lệch vùng và thời gian.</p></article><article><span>04 / DISCLOSURE</span><h3>Công bố AI minh bạch</h3><p>Ghi rõ công đoạn sử dụng AI; tất cả bản thảo cần con người đánh giá trước xuất bản.</p></article></div>
+        <div class="end-cta"><div><span>OPEN GEOSPATIAL SCIENCE</span><h2>Hãy nghiên cứu những câu hỏi<br>chưa có lời giải.</h2><p>Twinaper · Hệ thống nghiên cứu GeoAI mở, do Long Ngo thiết kế.</p></div><a class="btn btn-white" href="https://github.com/xulytiengviet/Twinaper" target="_blank" rel="noopener noreferrer">Xem mã nguồn trên GitHub ↗</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-line"><div><b>TWINAPER.</b><p>Autonomous GeoAI Research Lab · Long Ngo thiết kế</p></div><div><a href="https://github.com/xulytiengviet/Twinaper" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://scientist-two.github.io/" target="_blank" rel="noopener noreferrer">ScientistTwo ↗</a><a href="https://openalex.org/" target="_blank" rel="noopener noreferrer">OpenAlex ↗</a></div></div><div class="container footer-bottom">© 2026 Twinaper · Nền tảng nghiên cứu đang phát triển · Kết quả AI là bản nháp, không thay thế phản biện khoa học.</div></footer>
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script type="module" src="assets/app.js"></script>
+</body></html>
